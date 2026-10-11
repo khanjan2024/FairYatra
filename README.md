@@ -1,5 +1,19 @@
 # 🧭 FairYatra — Fair Fare Checker for North East India
 
+## 🔑 Demo Credentials
+
+> Use these to explore the app without creating an account.
+
+| Role | Name | Email | Password |
+|---|---|---|---|
+| **Admin** | Admin | admin@fairyatra.app | Admin@1234 |
+| **User** | User | user@gmail.com | user1234 |
+
+> **Admin** can access the full Admin Panel at `/admin` — manage reports, approve scam tips, edit the Scam DB, and manage users.
+> **User** can submit reports, vote on community posts, and use the fare checker.
+
+---
+
 FairYatra helps travellers in North East India check whether a quoted price is **Fair**, **Suspicious**, or **High Risk** before they pay. It combines benchmark fare data, community reports, and a curated scam database to give real-time, location-aware guidance.
 
 ---
