@@ -1,0 +1,19 @@
+{
+  "templates": {
+    "fair": {
+      "en": "The fair price for this trip is between ₹{low} and ₹{high}. The quoted ₹{quoted} is reasonable.",
+      "hi": "इस यात्रा के लिए उचित मूल्य ₹{low} और ₹{high} के बीच है। उद्धृत ₹{quoted} उचित है।",
+      "as": "TODO_ASSAMESE: এই যাত্ৰাৰ বাবে ন্যায্য মূল্য ₹{low} আৰু ₹{high} ৰ মাজত। উদ্ধৃত ₹{quoted} যুক্তিসংগত।"
+    },
+    "suspicious": {
+      "en": "The fair price is ₹{low}–₹{high}. At ₹{quoted}, this is overpriced. Try saying: \"The local rate is ₹{high}. Can we agree on that?\"",
+      "hi": "उचित मूल्य ₹{low}–₹{high} है। ₹{quoted} में यह अधिक महंगा है। कहें: \"यहाँ का किराया ₹{high} है। क्या हम इस पर सहमत हो सकते हैं?\"",
+      "as": "TODO_ASSAMESE: ন্যায্য মূল্য ₹{low}–₹{high}। ₹{quoted}ত এইটো বেছি দামী। কওক: \"স্থানীয় ভাড়া ₹{high}। আমি এইটোত একমত হ'ব পাৰোনে?\""
+    },
+    "high_risk": {
+      "en": "Warning: the fair price is ₹{low}–₹{high}. At ₹{quoted}, you are being significantly overcharged. Say firmly: \"I will pay ₹{high}, not more.\" or walk away.",
+      "hi": "चेतावनी: उचित मूल्य ₹{low}–₹{high} है। ₹{quoted} पर आपसे बहुत अधिक वसूला जा रहा है। दृढ़ता से कहें: \"मैं ₹{high} दूँगा, इससे ज़्यादा नहीं।\" या चले जाएं।",
+      "as": "TODO_ASSAMESE: সতৰ্কতা: ন্যায্য মূল্য ₹{low}–₹{high}। ₹{quoted}ত আপোনাক বেছি পৰিমাণে অতিৰিক্ত মূল্য দিবলৈ কোৱা হৈছে। দৃঢ়ভাৱে কওক: \"মই ₹{high} দিম, ইয়াতকৈ বেছি নহয়।\" নহ'লে আঁতৰি যাওক।"
+    }
+  }
+}

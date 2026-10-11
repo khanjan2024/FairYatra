@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "places": [
+    { "id": "gwt_airport", "city": "guwahati", "name": "Lokpriya Gopinath Bordoloi Airport", "shortName": "Guwahati Airport (GAU)", "type": "airport", "lat": 26.1061, "lng": 91.5859 },
+    { "id": "gwt_station", "city": "guwahati", "name": "Guwahati Railway Station", "shortName": "Guwahati Railway Station", "type": "station", "lat": 26.1836, "lng": 91.7457 },
+    { "id": "gwt_paltan", "city": "guwahati", "name": "Paltan Bazaar", "shortName": "Paltan Bazaar", "type": "commercial", "lat": 26.1824, "lng": 91.7523 },
+    { "id": "gwt_kamakhya", "city": "guwahati", "name": "Kamakhya Temple", "shortName": "Kamakhya Temple", "type": "tourist_spot", "lat": 26.1664, "lng": 91.6490 },
+    { "id": "gwt_zoo", "city": "guwahati", "name": "Assam State Zoo / Botanical Garden", "shortName": "Guwahati Zoo", "type": "tourist_spot", "lat": 26.1535, "lng": 91.7806 },
+    { "id": "gwt_fancy", "city": "guwahati", "name": "Fancy Bazaar", "shortName": "Fancy Bazaar", "type": "commercial", "lat": 26.1872, "lng": 91.7432 },
+
+    { "id": "shl_airport", "city": "shillong", "name": "Shillong Airport (Umroi)", "shortName": "Shillong Airport (SHL)", "type": "airport", "lat": 25.7036, "lng": 91.9787 },
+    { "id": "shl_police_bazaar", "city": "shillong", "name": "Police Bazaar", "shortName": "Police Bazaar", "type": "commercial", "lat": 25.5788, "lng": 91.8933 },
+    { "id": "shl_elephant_falls", "city": "shillong", "name": "Elephant Falls", "shortName": "Elephant Falls", "type": "tourist_spot", "lat": 25.5380, "lng": 91.8660 },
+    { "id": "shl_cherrapunji", "city": "shillong", "name": "Cherrapunji (Sohra)", "shortName": "Cherrapunji", "type": "tourist_spot", "lat": 25.2700, "lng": 91.7320 },
+    { "id": "shl_umiam", "city": "shillong", "name": "Umiam Lake", "shortName": "Umiam Lake", "type": "tourist_spot", "lat": 25.6720, "lng": 91.9290 },
+    { "id": "shl_wards_lake", "city": "shillong", "name": "Ward's Lake", "shortName": "Ward's Lake", "type": "tourist_spot", "lat": 25.5735, "lng": 91.8882 },
+    { "id": "shl_laitumkhrah", "city": "shillong", "name": "Laitumkhrah", "shortName": "Laitumkhrah", "type": "commercial", "lat": 25.5760, "lng": 91.9028 },
+
+    { "id": "gng_bagdogra", "city": "gangtok", "name": "Bagdogra Airport", "shortName": "Bagdogra Airport (IXB)", "type": "airport", "lat": 26.6812, "lng": 88.3286 },
+    { "id": "gng_mg_marg", "city": "gangtok", "name": "MG Marg", "shortName": "MG Marg", "type": "commercial", "lat": 27.3389, "lng": 88.6065 },
+    { "id": "gng_bus_stand", "city": "gangtok", "name": "Gangtok Bus Stand", "shortName": "Gangtok Bus Stand", "type": "station", "lat": 27.3269, "lng": 88.6095 },
+    { "id": "gng_tsomgo", "city": "gangtok", "name": "Tsomgo Lake", "shortName": "Tsomgo Lake", "type": "tourist_spot", "lat": 27.3730, "lng": 88.7640 },
+    { "id": "gng_nathula", "city": "gangtok", "name": "Nathula Pass", "shortName": "Nathula Pass", "type": "tourist_spot", "lat": 27.3872, "lng": 88.8296 },
+    { "id": "gng_rumtek", "city": "gangtok", "name": "Rumtek Monastery", "shortName": "Rumtek Monastery", "type": "tourist_spot", "lat": 27.2918, "lng": 88.5548 },
+
+    { "id": "taw_town", "city": "tawang", "name": "Tawang Town", "shortName": "Tawang Town", "type": "commercial", "lat": 27.5860, "lng": 91.8594 },
+    { "id": "taw_monastery", "city": "tawang", "name": "Tawang Monastery", "shortName": "Tawang Monastery", "type": "tourist_spot", "lat": 27.5873, "lng": 91.8617 },
+    { "id": "taw_sela", "city": "tawang", "name": "Sela Pass", "shortName": "Sela Pass", "type": "tourist_spot", "lat": 27.5130, "lng": 92.0720 },
+    { "id": "taw_bumla", "city": "tawang", "name": "Bumla Pass", "shortName": "Bumla Pass", "type": "tourist_spot", "lat": 27.6620, "lng": 91.9590 },
+    { "id": "taw_tezpur", "city": "tawang", "name": "Tezpur", "shortName": "Tezpur", "type": "commercial", "lat": 26.6338, "lng": 92.7928 },
+
+    { "id": "kaz_park_gate", "city": "kaziranga", "name": "Kaziranga National Park (Kohora Gate)", "shortName": "Kaziranga Gate", "type": "tourist_spot", "lat": 26.5759, "lng": 93.1574 },
+    { "id": "kaz_furkating", "city": "kaziranga", "name": "Furkating Railway Station", "shortName": "Furkating Station", "type": "station", "lat": 26.5270, "lng": 93.5730 },
+    { "id": "kaz_jorhat", "city": "kaziranga", "name": "Jorhat", "shortName": "Jorhat", "type": "commercial", "lat": 26.7509, "lng": 94.2037 }
+  ]
+}

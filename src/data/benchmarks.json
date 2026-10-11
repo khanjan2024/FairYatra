@@ -1,0 +1,298 @@
+{
+  "version": "1.0",
+  "cities": [
+    {
+      "id": "guwahati",
+      "name": "Guwahati",
+      "state": "Assam",
+      "services": [
+        {
+          "type": "taxi",
+          "baseFare": 50,
+          "perKmRate": 15,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.25, "hours": [22, 6] },
+            "luggage": { "flatFee": 20, "perBag": 10 },
+            "airport": { "flatFee": 50 }
+          },
+          "typicalRoutes": [
+            { "from": "Lokpriya Gopinath Bordoloi Airport", "to": "Paltan Bazaar", "fixedFare": 350, "distanceKm": 22, "source": "seed estimate" },
+            { "from": "Guwahati Railway Station", "to": "Kamakhya Temple", "fixedFare": 150, "distanceKm": 9, "source": "seed estimate" },
+            { "from": "Paltan Bazaar", "to": "Kamakhya Temple", "fixedFare": 120, "distanceKm": 8, "source": "seed estimate" },
+            { "from": "Guwahati Railway Station", "to": "Zoo/Botanical Garden", "fixedFare": 200, "distanceKm": 13, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "auto",
+          "baseFare": 30,
+          "perKmRate": 10,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.5, "hours": [21, 6] },
+            "luggage": { "flatFee": 10, "perBag": 5 }
+          },
+          "typicalRoutes": [
+            { "from": "Paltan Bazaar", "to": "Fancy Bazaar", "fixedFare": 40, "distanceKm": 2, "source": "seed estimate" },
+            { "from": "Guwahati Railway Station", "to": "Pan Bazaar", "fixedFare": 50, "distanceKm": 3, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "shared_cab",
+          "baseFare": 20,
+          "perKmRate": 5,
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": [
+            { "from": "Guwahati", "to": "Shillong", "fixedFare": 250, "distanceKm": 100, "source": "seed estimate" },
+            { "from": "Guwahati", "to": "Kaziranga", "fixedFare": 300, "distanceKm": 195, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "guide",
+          "baseFare": 500,
+          "perKmRate": 0,
+          "unit": "per_day",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        },
+        {
+          "type": "restaurant",
+          "baseFare": 120,
+          "perKmRate": 0,
+          "unit": "per_person",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        }
+      ]
+    },
+    {
+      "id": "shillong",
+      "name": "Shillong",
+      "state": "Meghalaya",
+      "services": [
+        {
+          "type": "taxi",
+          "baseFare": 60,
+          "perKmRate": 18,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.3, "hours": [22, 6] },
+            "hill_road": { "multiplier": 1.2 },
+            "luggage": { "flatFee": 20, "perBag": 10 },
+            "airport": { "flatFee": 80 }
+          },
+          "typicalRoutes": [
+            { "from": "Shillong Airport (Umroi)", "to": "Police Bazaar", "fixedFare": 800, "distanceKm": 35, "source": "seed estimate" },
+            { "from": "Police Bazaar", "to": "Elephant Falls", "fixedFare": 250, "distanceKm": 12, "source": "seed estimate" },
+            { "from": "Police Bazaar", "to": "Cherrapunji", "fixedFare": 1200, "distanceKm": 54, "source": "seed estimate" },
+            { "from": "Police Bazaar", "to": "Umiam Lake", "fixedFare": 400, "distanceKm": 17, "source": "seed estimate" },
+            { "from": "Police Bazaar", "to": "Ward's Lake", "fixedFare": 80, "distanceKm": 1, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "auto",
+          "baseFare": 40,
+          "perKmRate": 12,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.5, "hours": [21, 6] }
+          },
+          "typicalRoutes": [
+            { "from": "Police Bazaar", "to": "Laitumkhrah", "fixedFare": 60, "distanceKm": 3, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "shared_cab",
+          "baseFare": 30,
+          "perKmRate": 6,
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": [
+            { "from": "Shillong", "to": "Guwahati", "fixedFare": 250, "distanceKm": 100, "source": "seed estimate" },
+            { "from": "Shillong", "to": "Cherrapunji", "fixedFare": 200, "distanceKm": 54, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "guide",
+          "baseFare": 700,
+          "perKmRate": 0,
+          "unit": "per_day",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        },
+        {
+          "type": "restaurant",
+          "baseFare": 150,
+          "perKmRate": 0,
+          "unit": "per_person",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        }
+      ]
+    },
+    {
+      "id": "gangtok",
+      "name": "Gangtok",
+      "state": "Sikkim",
+      "services": [
+        {
+          "type": "taxi",
+          "baseFare": 80,
+          "perKmRate": 20,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.4, "hours": [21, 6] },
+            "hill_road": { "multiplier": 1.25 },
+            "luggage": { "flatFee": 30, "perBag": 15 }
+          },
+          "typicalRoutes": [
+            { "from": "Bagdogra Airport", "to": "Gangtok", "fixedFare": 2500, "distanceKm": 124, "source": "seed estimate" },
+            { "from": "Gangtok", "to": "Tsomgo Lake", "fixedFare": 1200, "distanceKm": 38, "source": "seed estimate" },
+            { "from": "Gangtok", "to": "Nathula Pass", "fixedFare": 2000, "distanceKm": 55, "source": "seed estimate" },
+            { "from": "Gangtok Bus Stand", "to": "MG Marg", "fixedFare": 100, "distanceKm": 2, "source": "seed estimate" },
+            { "from": "Gangtok", "to": "Rumtek Monastery", "fixedFare": 600, "distanceKm": 24, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "shared_cab",
+          "baseFare": 40,
+          "perKmRate": 7,
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": [
+            { "from": "Gangtok", "to": "Siliguri", "fixedFare": 300, "distanceKm": 115, "source": "seed estimate" },
+            { "from": "Gangtok", "to": "Pelling", "fixedFare": 350, "distanceKm": 130, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "guide",
+          "baseFare": 800,
+          "perKmRate": 0,
+          "unit": "per_day",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        },
+        {
+          "type": "restaurant",
+          "baseFare": 180,
+          "perKmRate": 0,
+          "unit": "per_person",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        }
+      ]
+    },
+    {
+      "id": "tawang",
+      "name": "Tawang",
+      "state": "Arunachal Pradesh",
+      "services": [
+        {
+          "type": "taxi",
+          "baseFare": 100,
+          "perKmRate": 25,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.5, "hours": [20, 7] },
+            "hill_road": { "multiplier": 1.35 },
+            "luggage": { "flatFee": 50, "perBag": 20 }
+          },
+          "typicalRoutes": [
+            { "from": "Tezpur", "to": "Tawang", "fixedFare": 3500, "distanceKm": 320, "source": "seed estimate" },
+            { "from": "Tawang", "to": "Sela Pass", "fixedFare": 1500, "distanceKm": 78, "source": "seed estimate" },
+            { "from": "Tawang Town", "to": "Tawang Monastery", "fixedFare": 200, "distanceKm": 2, "source": "seed estimate" },
+            { "from": "Tawang", "to": "Bumla Pass", "fixedFare": 2500, "distanceKm": 37, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "shared_cab",
+          "baseFare": 50,
+          "perKmRate": 8,
+          "source": "seed estimate",
+          "surcharges": {
+            "hill_road": { "multiplier": 1.2 }
+          },
+          "typicalRoutes": [
+            { "from": "Tawang", "to": "Bomdila", "fixedFare": 600, "distanceKm": 180, "source": "seed estimate" },
+            { "from": "Tawang", "to": "Dirang", "fixedFare": 400, "distanceKm": 140, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "guide",
+          "baseFare": 1000,
+          "perKmRate": 0,
+          "unit": "per_day",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        },
+        {
+          "type": "restaurant",
+          "baseFare": 200,
+          "perKmRate": 0,
+          "unit": "per_person",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        }
+      ]
+    },
+    {
+      "id": "kaziranga",
+      "name": "Kaziranga",
+      "state": "Assam",
+      "services": [
+        {
+          "type": "taxi",
+          "baseFare": 60,
+          "perKmRate": 16,
+          "source": "seed estimate",
+          "surcharges": {
+            "night": { "multiplier": 1.3, "hours": [21, 6] },
+            "luggage": { "flatFee": 20, "perBag": 10 }
+          },
+          "typicalRoutes": [
+            { "from": "Kaziranga National Park Gate", "to": "Kohora", "fixedFare": 150, "distanceKm": 5, "source": "seed estimate" },
+            { "from": "Furkating Railway Station", "to": "Kaziranga", "fixedFare": 500, "distanceKm": 30, "source": "seed estimate" },
+            { "from": "Kaziranga", "to": "Jorhat", "fixedFare": 800, "distanceKm": 97, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "shared_cab",
+          "baseFare": 25,
+          "perKmRate": 5,
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": [
+            { "from": "Kaziranga", "to": "Guwahati", "fixedFare": 300, "distanceKm": 195, "source": "seed estimate" }
+          ]
+        },
+        {
+          "type": "guide",
+          "baseFare": 600,
+          "perKmRate": 0,
+          "unit": "per_day",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        },
+        {
+          "type": "restaurant",
+          "baseFare": 100,
+          "perKmRate": 0,
+          "unit": "per_person",
+          "source": "seed estimate",
+          "surcharges": {},
+          "typicalRoutes": []
+        }
+      ]
+    }
+  ]
+}

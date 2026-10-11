@@ -1,0 +1,723 @@
+{
+  "version": "2.0",
+  "scams": [
+    {
+      "id": "gwt_001",
+      "city": "guwahati",
+      "location": "Lokpriya Gopinath Bordoloi Airport",
+      "lat": 26.1061,
+      "lng": 91.5859,
+      "title": "Airport Taxi Tout Overcharge",
+      "category": "overcharging",
+      "description": "Unlicensed taxi touts intercept arrivals before the prepaid counter and quote ₹800–1,200 for a trip to Paltan Bazaar. The fair rate is ₹300–380.",
+      "howToAvoid": "Walk past all touts to the prepaid taxi counter inside the terminal. Fixed rate to city centre is ~₹350. Ola/Uber also available once outside.",
+      "typicalLoss": "₹400–800 extra",
+      "redFlags": [
+        "Approaches you before you reach the exit",
+        "Refuses to use meter",
+        "Quotes a round number like ₹1,000"
+      ],
+      "severity": "high",
+      "serviceType": "taxi",
+      "tags": [
+        "airport",
+        "overcharging",
+        "tout"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gwt_002",
+      "city": "guwahati",
+      "location": "Kamakhya Temple",
+      "lat": 26.1664,
+      "lng": 91.649,
+      "title": "Fake Priest VIP Darshan",
+      "category": "scam",
+      "description": "Men in saffron robes outside the temple offer 'VIP darshan' bypassing the queue for ₹2,000–5,000. They pocket the money and either vanish or lead you to an unrelated private house.",
+      "howToAvoid": "VIP darshan tickets are sold only at the official temple trust counter at the gate. No legitimate priest solicits outside.",
+      "typicalLoss": "₹2,000–5,000",
+      "redFlags": [
+        "Approaches proactively",
+        "Promises queue bypass",
+        "Asks for cash only"
+      ],
+      "severity": "high",
+      "serviceType": "guide",
+      "tags": [
+        "temple",
+        "fake_guide",
+        "fraud",
+        "kamakhya"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gwt_003",
+      "city": "guwahati",
+      "location": "Paltan Bazaar",
+      "lat": 26.1824,
+      "lng": 91.7523,
+      "title": "Auto-Rickshaw Tampered Meter",
+      "category": "overcharging",
+      "description": "Autos in Paltan Bazaar use meters calibrated to run 1.5–2× faster than the legal rate. Short trips of 2–3 km end up costing ₹150–200 instead of ₹50–80.",
+      "howToAvoid": "Agree on a fixed price before boarding. Standard rate is ₹10–12/km. For trips under 3 km, ₹50–80 is typical.",
+      "typicalLoss": "₹70–120 extra",
+      "redFlags": [
+        "Driver insists on meter only",
+        "Meter ticks unusually fast",
+        "Refuses to quote a fixed price"
+      ],
+      "severity": "medium",
+      "serviceType": "auto",
+      "tags": [
+        "auto",
+        "meter",
+        "overcharging",
+        "paltan"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gwt_004",
+      "city": "guwahati",
+      "location": "Guwahati Railway Station",
+      "lat": 26.1836,
+      "lng": 91.7457,
+      "title": "Fake Porter Baggage Fee",
+      "category": "hidden_charge",
+      "description": "Unofficial porters grab luggage without quoting a price, carry it 20 metres to the exit, then demand ₹300–500. Licensed porters charge ₹30–50 per bag and wear a red uniform with an ID badge.",
+      "howToAvoid": "Only engage porters wearing red uniforms with visible Railway badge. Agree on the fee before handing over bags.",
+      "typicalLoss": "₹250–450 extra",
+      "redFlags": [
+        "No badge or uniform",
+        "Grabs bags without asking",
+        "Demands payment before you can leave"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "station",
+        "porter",
+        "hidden_charge"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gwt_005",
+      "city": "guwahati",
+      "location": "Fancy Bazaar",
+      "lat": 26.1872,
+      "lng": 91.7432,
+      "title": "Silk & Handicraft Quality Fraud",
+      "category": "tourist_trap",
+      "description": "Shops targeting tourists sell synthetic fabric labelled as Assam silk (muga/eri) at genuine silk prices of ₹2,000–8,000 per metre. The cloth is indistinguishable to untrained eyes.",
+      "howToAvoid": "Buy silk only from Assam Silk stores with GI-tag certification or the Government Silk Emporium on G.S. Road. Rub the fabric — real silk warms quickly.",
+      "typicalLoss": "₹1,500–6,000 per metre",
+      "redFlags": [
+        "Price seems low for 'pure muga'",
+        "Shop has no GI certification displayed",
+        "Pressure to buy immediately"
+      ],
+      "severity": "medium",
+      "serviceType": "restaurant",
+      "tags": [
+        "shopping",
+        "silk",
+        "tourist_trap",
+        "fancy_bazaar"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gwt_006",
+      "city": "guwahati",
+      "location": "Brahmaputra Riverfront",
+      "lat": 26.1889,
+      "lng": 91.7362,
+      "title": "Boat Ride Hidden Charges",
+      "category": "hidden_charge",
+      "description": "Boatmen quote ₹100–150 for a Brahmaputra river crossing or sunset cruise, then add charges mid-trip for 'island entry', 'life jacket fee', and 'guide fee' totalling ₹400–600.",
+      "howToAvoid": "Ask explicitly before boarding: 'Is this the total price, no extra charges?' Government ASTC ferries have fixed printed fares. Agree on an all-inclusive price.",
+      "typicalLoss": "₹300–450 in hidden fees",
+      "redFlags": [
+        "Adds fees mid-journey",
+        "No written price board",
+        "Claims entry fees are 'government charges'"
+      ],
+      "severity": "medium",
+      "serviceType": "taxi",
+      "tags": [
+        "boat",
+        "hidden_charge",
+        "river"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "shl_001",
+      "city": "shillong",
+      "location": "Police Bazaar",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "title": "Tourist Taxi Price Inflation",
+      "category": "overcharging",
+      "description": "Drivers at Police Bazaar quote out-of-state tourists 50–100% above local rates. Cherrapunji return (which locals pay ₹1,200) is quoted at ₹2,500–3,500.",
+      "howToAvoid": "Fair rate: Cherrapunji return ₹1,200–1,800. Ask your hotel to arrange a car or compare with at least two other drivers. Ola is available in Shillong.",
+      "typicalLoss": "₹800–1,500 extra",
+      "redFlags": [
+        "Quotes significantly higher than hotel estimate",
+        "Won't share cab with other passengers",
+        "Insists on 'tourist rate'"
+      ],
+      "severity": "medium",
+      "serviceType": "taxi",
+      "tags": [
+        "overcharging",
+        "tourist_price",
+        "police_bazaar"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "shl_002",
+      "city": "shillong",
+      "location": "Shillong Airport (Umroi)",
+      "lat": 25.7036,
+      "lng": 91.9787,
+      "title": "Airport Cab Monopoly Pricing",
+      "category": "overcharging",
+      "description": "The 35 km Umroi Airport to Police Bazaar route is quoted at ₹1,500–2,000 by unregulated cabs. The official prepaid rate is ₹700–900.",
+      "howToAvoid": "Use the prepaid taxi counter at the arrivals exit. Confirm the price is ₹800 or less before moving to the vehicle.",
+      "typicalLoss": "₹600–1,100 extra",
+      "redFlags": [
+        "No prepaid receipt offered",
+        "Driver quotes 'fixed tourist rate'",
+        "Starts driving before agreeing on price"
+      ],
+      "severity": "high",
+      "serviceType": "taxi",
+      "tags": [
+        "airport",
+        "overcharging",
+        "umroi"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "shl_003",
+      "city": "shillong",
+      "location": "Cherrapunji",
+      "lat": 25.27,
+      "lng": 91.732,
+      "title": "Fake Waterfall Entry Tickets",
+      "category": "scam",
+      "description": "Unofficial ticket sellers near Nohkalikai Falls and Seven Sisters Falls charge ₹150–300 entry. The actual Forest Department rate is ₹20–40 per person.",
+      "howToAvoid": "Only buy tickets from the official forest department kiosk at the main gate. It has a printed rate chart. Never buy from individuals on the road.",
+      "typicalLoss": "₹100–260 per person",
+      "redFlags": [
+        "Selling tickets away from the main gate",
+        "No official receipt",
+        "Says 'government rate increased recently'"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "entry_fee",
+        "fake_ticket",
+        "cherrapunji",
+        "waterfall"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "shl_004",
+      "city": "shillong",
+      "location": "Mawlynnong Village",
+      "lat": 25.202,
+      "lng": 91.902,
+      "title": "Unofficial Village Guide Overcharge",
+      "category": "overcharging",
+      "description": "Self-appointed guides at the 'Cleanest Village in Asia' charge ₹500–1,000 for a walk that takes 20 minutes and needs no guide. The village is tiny and well-signed.",
+      "howToAvoid": "Mawlynnong is easy to navigate independently. If you want a guide, the community-run visitor centre charges a fair ₹100–200.",
+      "typicalLoss": "₹300–800",
+      "redFlags": [
+        "Intercepts you at the entrance",
+        "Claims village 'requires' a guide",
+        "No official ID"
+      ],
+      "severity": "low",
+      "serviceType": "guide",
+      "tags": [
+        "guide",
+        "mawlynnong",
+        "overcharging"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "shl_005",
+      "city": "shillong",
+      "location": "Shillong",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "title": "Hotel 'Government Approved' Scam",
+      "category": "tourist_trap",
+      "description": "Touts near the bus stand steer tourists to specific hotels claiming they are 'government approved' or 'tourist department certified' and earn commission. These hotels are often overpriced or substandard.",
+      "howToAvoid": "Book accommodation in advance through reputable platforms. Ignore unsolicited hotel recommendations from strangers at bus/taxi stands.",
+      "typicalLoss": "₹500–2,000 over fair market rate",
+      "redFlags": [
+        "Volunteer helper at bus stand",
+        "Claims other hotels are 'full' or 'closed'",
+        "Insists on taking you personally"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "hotel",
+        "tout",
+        "tourist_trap"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "shl_006",
+      "city": "shillong",
+      "location": "Laitlum Canyons",
+      "lat": 25.531,
+      "lng": 91.985,
+      "title": "Unofficial Parking & Entry Fee",
+      "category": "hidden_charge",
+      "description": "Locals near Laitlum collect ₹100–200 'parking fees' and ₹50 per person 'entry fees' that have no official basis. The area is a community-managed viewpoint with nominal or no entry charge.",
+      "howToAvoid": "Ask for an official receipt. The legitimate community fee (if any) is ₹20–30 per person. Refuse to pay without a proper receipt.",
+      "typicalLoss": "₹150–350 per vehicle",
+      "redFlags": [
+        "No printed receipt",
+        "Man-made barrier on road",
+        "Demands cash before you've parked"
+      ],
+      "severity": "low",
+      "serviceType": "taxi",
+      "tags": [
+        "parking",
+        "hidden_charge",
+        "laitlum"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gng_001",
+      "city": "gangtok",
+      "location": "MG Marg",
+      "lat": 27.3389,
+      "lng": 88.6065,
+      "title": "Tsomgo + Nathula Package Inflation",
+      "category": "overcharging",
+      "description": "Travel agents on MG Marg quote ₹5,000–8,000 per car for Tsomgo Lake + Nathula. The fair rate including permits is ₹2,500–3,500. Agents claim inflated 'processing fees' for permits that cost nothing extra.",
+      "howToAvoid": "Book permits directly at the Tourism & Civil Aviation Dept office. Compare at least 3 agents. Fair private cab rate is ₹2,800–3,200 for both sites.",
+      "typicalLoss": "₹1,500–4,500",
+      "redFlags": [
+        "Permit 'processing fee' over ₹200",
+        "Refuses to itemise costs",
+        "Claims it's the 'last available car'"
+      ],
+      "severity": "high",
+      "serviceType": "taxi",
+      "tags": [
+        "tour_package",
+        "permit",
+        "overcharging",
+        "tsomgo",
+        "nathula"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gng_002",
+      "city": "gangtok",
+      "location": "Bagdogra Airport",
+      "lat": 26.6812,
+      "lng": 88.3286,
+      "title": "Bagdogra to Gangtok Overcharge",
+      "category": "overcharging",
+      "description": "Touts at Bagdogra quote ₹4,000–5,000 for a private cab to Gangtok. Shared taxis from the official stand cost ₹300–350 per seat; private cab fair rate is ₹2,200–2,800.",
+      "howToAvoid": "Head to the official shared taxi stand outside arrivals. For private cab, use pre-booked services or confirm the rate is under ₹2,800 before departure.",
+      "typicalLoss": "₹1,200–2,200",
+      "redFlags": [
+        "Intercepts before you reach the taxi stand",
+        "No meter or printed rate",
+        "Quotes only per-vehicle, not per-seat"
+      ],
+      "severity": "high",
+      "serviceType": "taxi",
+      "tags": [
+        "airport",
+        "shared_cab",
+        "overcharging",
+        "bagdogra"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gng_003",
+      "city": "gangtok",
+      "location": "Rumtek Monastery",
+      "lat": 27.2918,
+      "lng": 88.5548,
+      "title": "Fake Monastery Guide",
+      "category": "fake_service",
+      "description": "Unlicensed guides outside Rumtek and Enchey Monastery offer 'exclusive inner sanctum' access for ₹800–2,000. No such access exists for tourists; they simply walk you around the public courtyard.",
+      "howToAvoid": "Monastery entry is free or has a small donation box. Government-licensed guides carry a laminated Tourism Dept ID card. Pay no more than ₹400–600 for a half-day guide.",
+      "typicalLoss": "₹400–1,600",
+      "redFlags": [
+        "Claims to have 'special permission'",
+        "No official ID card",
+        "Demands payment upfront before entering"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "guide",
+        "monastery",
+        "fake_service",
+        "rumtek"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gng_004",
+      "city": "gangtok",
+      "location": "Gangtok",
+      "lat": 27.3314,
+      "lng": 88.6138,
+      "title": "Organic Sikkim Product Mislabelling",
+      "category": "tourist_trap",
+      "description": "Shops sell generic tea, cardamom, and honey labelled as 'certified organic Sikkim' at 3–5× the price of identical products from Darjeeling or Nepal. The 'organic' certification is often a printed sticker with no verification.",
+      "howToAvoid": "Buy certified organic Sikkim products from the Sikkim Organic Mission outlet at MG Marg or the State Government Emporium. Ask for the certification number.",
+      "typicalLoss": "₹300–2,000 per purchase",
+      "redFlags": [
+        "No certification number on label",
+        "Price drastically higher than market",
+        "Sold only to tourists, not locals"
+      ],
+      "severity": "low",
+      "serviceType": "restaurant",
+      "tags": [
+        "shopping",
+        "organic",
+        "tourist_trap",
+        "mislabel"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gng_005",
+      "city": "gangtok",
+      "location": "Gangtok",
+      "lat": 27.3314,
+      "lng": 88.6138,
+      "title": "Hidden Hotel Tax & Service Charge",
+      "category": "hidden_charge",
+      "description": "Budget guesthouses add 'tourism cess', 'room service charge', and 'heater fee' to the bill that were not mentioned at check-in, inflating the bill by 20–35%.",
+      "howToAvoid": "Ask at check-in for a full breakdown of all charges. Request a written quote. GST is standard (12–18%) but additional local cess or 'heater fee' should be negotiated upfront.",
+      "typicalLoss": "₹200–600 per night",
+      "redFlags": [
+        "Bill significantly higher than quoted price",
+        "Vague line items like 'miscellaneous'",
+        "Reluctant to give itemised bill"
+      ],
+      "severity": "medium",
+      "serviceType": "restaurant",
+      "tags": [
+        "hotel",
+        "hidden_charge",
+        "tax",
+        "gangtok"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "gng_006",
+      "city": "gangtok",
+      "location": "Nathula Pass",
+      "lat": 27.3872,
+      "lng": 88.8296,
+      "title": "Nathula Permit Middleman",
+      "category": "hidden_charge",
+      "description": "Agents near the Tourism Office charge ₹300–600 as 'facilitation fees' to process Nathula permits. The permit itself is free and can be obtained directly at the SDM office with your documents.",
+      "howToAvoid": "Bring original ID, passport photos, and vehicle registration to the Sub-Divisional Magistrate (SDM) office. Processing is free. Your hotel can guide you.",
+      "typicalLoss": "₹300–600",
+      "redFlags": [
+        "Offers to 'fast-track' your permit",
+        "Asks for original documents to keep",
+        "Works from an unofficial-looking office near the govt building"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "permit",
+        "hidden_charge",
+        "nathula"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "taw_001",
+      "city": "tawang",
+      "location": "Tawang",
+      "lat": 27.586,
+      "lng": 91.8594,
+      "title": "Bumla Pass Permit Fraud",
+      "category": "scam",
+      "description": "Agents near Tawang town collect ₹500–1,000 per person for Bumla Pass permits that are completely free. They claim 'special government processing' is required.",
+      "howToAvoid": "Bumla permits are obtained free at the DC (Deputy Commissioner) office in Tawang with your ILP and passport. No agent is needed. Your hotel can accompany you.",
+      "typicalLoss": "₹500–1,000 per person",
+      "redFlags": [
+        "Operates from a roadside desk near the DC office",
+        "Claims online process is 'not working'",
+        "Asks for original documents"
+      ],
+      "severity": "high",
+      "serviceType": "guide",
+      "tags": [
+        "permit",
+        "fraud",
+        "bumla",
+        "tawang"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "taw_002",
+      "city": "tawang",
+      "location": "Sela Pass",
+      "lat": 27.513,
+      "lng": 92.072,
+      "title": "Fake Photography Permit",
+      "category": "scam",
+      "description": "Individuals at Sela Lake and the pass viewpoint demand ₹200–500 for a 'photography permit'. No such permit exists. This is entirely fraudulent.",
+      "howToAvoid": "There is no photography fee at Sela Pass. Refuse politely and walk away. If aggressive, note the person's description and report to the nearest ITBP post.",
+      "typicalLoss": "₹200–500",
+      "redFlags": [
+        "Unofficial-looking laminated card",
+        "Demands cash before you take a photo",
+        "Amount changes when you question it"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "fake_fee",
+        "photography",
+        "sela"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "taw_003",
+      "city": "tawang",
+      "location": "Tezpur–Tawang Highway",
+      "lat": 27.1,
+      "lng": 92.1,
+      "title": "Mid-Route Fare Revision",
+      "category": "overcharging",
+      "description": "Hired drivers on the Tezpur–Tawang route claim road closures, military checkpoints, or 'extra fuel costs' mid-journey to demand ₹500–1,500 above the agreed fare.",
+      "howToAvoid": "Fix the fare in writing on a signed paper before departure. Clarify: 'This price is final regardless of road conditions.' Use hotel-recommended drivers only.",
+      "typicalLoss": "₹500–1,500",
+      "redFlags": [
+        "Mentions road problems shortly after departure",
+        "Stops at a dhaba and 'discusses' costs",
+        "Says he needs extra for 'toll' on a free road"
+      ],
+      "severity": "high",
+      "serviceType": "taxi",
+      "tags": [
+        "driver",
+        "overcharging",
+        "route_change",
+        "tezpur_tawang"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "taw_004",
+      "city": "tawang",
+      "location": "Tawang Monastery",
+      "lat": 27.5873,
+      "lng": 91.8617,
+      "title": "Monastery Souvenir Price Gouging",
+      "category": "tourist_trap",
+      "description": "Souvenir stalls inside and around Tawang Monastery sell thangka paintings, prayer flags, and singing bowls at 3–10× their actual value, targeting foreign and domestic tourists equally.",
+      "howToAvoid": "Compare prices at the local market in Tawang town (10 min walk). Singing bowls: ₹300–500 fair; prayer flags: ₹30–80 per string. Bargain confidently.",
+      "typicalLoss": "₹500–3,000 per item",
+      "redFlags": [
+        "Price drops dramatically when you hesitate",
+        "Claims items are 'monastery-blessed' and unique",
+        "No price tags displayed"
+      ],
+      "severity": "low",
+      "serviceType": "restaurant",
+      "tags": [
+        "souvenir",
+        "tourist_trap",
+        "monastery",
+        "tawang"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "taw_005",
+      "city": "tawang",
+      "location": "Tawang",
+      "lat": 27.586,
+      "lng": 91.8594,
+      "title": "ILP Facilitation Fee Scam",
+      "category": "scam",
+      "description": "Agents near transport hubs charge ₹300–800 to 'arrange' Inner Line Permits for Arunachal Pradesh. ILPs are free and can be obtained online at the Arunachal online portal or at any DC/SDM office.",
+      "howToAvoid": "Apply online at arunachalipr.gov.in (free) or at the DC/SDM office in person. No agent needed. Carry printout of your ILP at all times.",
+      "typicalLoss": "₹300–800",
+      "redFlags": [
+        "Claims online portal 'is down'",
+        "Asks for money before showing you the process",
+        "Works outside the government office building"
+      ],
+      "severity": "high",
+      "serviceType": "guide",
+      "tags": [
+        "ILP",
+        "permit",
+        "fraud",
+        "arunachal"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "kaz_001",
+      "city": "kaziranga",
+      "location": "Kaziranga National Park (Kohora Gate)",
+      "lat": 26.5759,
+      "lng": 93.1574,
+      "title": "Unofficial Jeep Safari Tickets",
+      "category": "scam",
+      "description": "Touts sell jeep safari tickets outside the gate for ₹2,000–3,000 per person. Official Forest Dept jeep safari is ₹700–900 per seat including park entry.",
+      "howToAvoid": "Book only at official counters inside the gate (Kohora, Bagori, Agaratoli ranges). Carry original ID. Online booking available at kaziranga.nic.in.",
+      "typicalLoss": "₹1,100–2,100 per person",
+      "redFlags": [
+        "Ticket has no Forest Dept stamp",
+        "Sold outside the park compound",
+        "Price includes no itemisation"
+      ],
+      "severity": "high",
+      "serviceType": "guide",
+      "tags": [
+        "safari",
+        "fake_ticket",
+        "overcharging",
+        "kaziranga"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "kaz_002",
+      "city": "kaziranga",
+      "location": "Kohora",
+      "lat": 26.5759,
+      "lng": 93.1574,
+      "title": "Resort Taxi Overcharge",
+      "category": "overcharging",
+      "description": "Resort-arranged taxis to Jorhat or Furkating charge ₹1,500–2,000 for routes that cost locals ₹700–900. Resorts add an undisclosed commission.",
+      "howToAvoid": "Ask the resort to call a local taxi directly, not through their 'partner'. Fair rate: Jorhat ₹800–1,000, Furkating ₹500–600, Guwahati shared cab ₹300/seat.",
+      "typicalLoss": "₹600–1,100",
+      "redFlags": [
+        "Resort insists on 'their driver only'",
+        "Driver is unfamiliar with local fares",
+        "No receipt provided"
+      ],
+      "severity": "medium",
+      "serviceType": "taxi",
+      "tags": [
+        "hotel",
+        "overcharging",
+        "resort",
+        "kaziranga"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "kaz_003",
+      "city": "kaziranga",
+      "location": "Kaziranga",
+      "lat": 26.582,
+      "lng": 93.168,
+      "title": "Fake Wildlife Guide Certification",
+      "category": "fake_service",
+      "description": "Guides without Assam Forest Department certification pose as licensed wildlife naturalists, charging ₹1,500–2,500/day for a service a certified guide provides for ₹600–800.",
+      "howToAvoid": "Ask to see the green Assam Forest Department guide badge with photo ID. Book through the official guide counter at the park gate. Certified guides also know animal locations better.",
+      "typicalLoss": "₹700–1,700",
+      "redFlags": [
+        "No green Forest Dept badge",
+        "Approaches you outside the park",
+        "Offers a 'package' combining guide + jeep"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "guide",
+        "fake_certification",
+        "kaziranga"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "kaz_004",
+      "city": "kaziranga",
+      "location": "Kaziranga National Park",
+      "lat": 26.5775,
+      "lng": 93.1711,
+      "title": "Elephant Safari Hidden Charges",
+      "category": "hidden_charge",
+      "description": "Touts for elephant safaris quote ₹400–500 per person then add 'mahout tip', 'camera fee', 'insurance', and 'park contribution' to charge ₹900–1,200 total.",
+      "howToAvoid": "Elephant safaris are ₹900–1,200 all-inclusive when booked at the official Forest Dept counter. All charges should be on the receipt. Tip the mahout separately at your discretion (₹50–100).",
+      "typicalLoss": "₹400–700 in hidden fees",
+      "redFlags": [
+        "Initial price seems unusually low",
+        "Fees added after you've mounted the elephant",
+        "No printed receipt for each charge"
+      ],
+      "severity": "medium",
+      "serviceType": "guide",
+      "tags": [
+        "elephant",
+        "safari",
+        "hidden_charge",
+        "kaziranga"
+      ],
+      "source": "seed"
+    },
+    {
+      "id": "kaz_005",
+      "city": "kaziranga",
+      "location": "Kaziranga",
+      "lat": 26.5775,
+      "lng": 93.1711,
+      "title": "Roadside Restaurant Tourist Menu",
+      "category": "tourist_trap",
+      "description": "Roadside dhabas near the park hand tourists a separate 'tourist menu' with prices 2–3× the regular menu. A thali that costs locals ₹80–100 is charged at ₹200–300.",
+      "howToAvoid": "Ask to see the regular menu or ask other diners what they paid. A full Assamese thali should cost ₹80–150 anywhere along NH-37.",
+      "typicalLoss": "₹100–200 per meal",
+      "redFlags": [
+        "Menu brought out only after seeing you're a tourist",
+        "No prices on the board outside",
+        "Staff hesitant to quote price before ordering"
+      ],
+      "severity": "low",
+      "serviceType": "restaurant",
+      "tags": [
+        "restaurant",
+        "tourist_menu",
+        "hidden_charge",
+        "kaziranga"
+      ],
+      "source": "seed"
+    }
+  ]
+}

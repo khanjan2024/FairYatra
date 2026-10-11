@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Leaflet z-index fix inside Tailwind stacking contexts */
+.leaflet-pane { z-index: 10; }
+.leaflet-top, .leaflet-bottom { z-index: 20; }
+.leaflet-container { font-family: inherit; }
+
+/* smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* safe-area insets for mobile notches */
+body {
+  padding-bottom: env(safe-area-inset-bottom);
+}
